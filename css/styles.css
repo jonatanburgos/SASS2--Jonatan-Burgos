@@ -1,0 +1,258 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%; }
+
+.imagenfondo {
+  background-image: url(../img/20887.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%; }
+
+.imagenfondocontacto {
+  background-image: url(../img/cine.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 1800px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.imagenfondoreseñas {
+  background-image: url(../img/20887.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+html {
+  height: 10%; }
+
+.lista-navegacion {
+  display: flex;
+  display: flex-wrap;
+  gap: 100px;
+  margin-left: 600px;
+  font-family: 'Bebas Neue', cursive;
+  list-style: none;
+  background-color: #eeeeee;
+  padding: 15px; }
+
+h1 {
+  color: #020220; }
+
+.lista-cine {
+  display: flex;
+  display: flex-wrap;
+  gap: 100px;
+  margin-left: 600px;
+  font-family: 'Bebas Neue', cursive; }
+
+.card__imdb {
+  margin: 100px; }
+
+.card_table {
+  font-family: 'Bebas Neue', cursive;
+  border: 10px solid;
+  color: black;
+  border: collapse;
+  width: 100%; }
+
+.card_cineparrafo {
+  color: #010211;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-align: center; }
+
+.caja__cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.card_imgcine {
+  height: 300px;
+  width: 1250px;
+  margin: 10px; }
+
+.card__cine {
+  color: #04ee18;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 550px; }
+
+.card__cine1 {
+  color: #61fa09;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 400px; }
+
+.card_peliculas {
+  color: #05adfc;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-align: center; }
+
+.card__noticia1 {
+  background-color: #eeeeee;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 10px; }
+
+.card__noticia2 {
+  background-color: #eeeeee;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  margin: 10px;
+  padding: 10px; }
+
+.card {
+  background-color: #e9c910;
+  border: solid 10px #030dfb; }
+
+.card__imagen {
+  width: 1197px;
+  height: 840px;
+  margin-top: 15px;
+  margin-left: 15px; }
+
+.card_head {
+  color: #030dfb;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 5px; }
+
+.card__titulo {
+  color: #030dfb;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  padding-left: 300px; }
+
+.card__reseña {
+  color: #030dfb;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-align: center; }
+
+.card__reseña2 {
+  color: #030dfb;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-align: center; }
+
+.card__valoracion {
+  color: #030dfb;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-align: center; }
+
+.card__footer {
+  font-family: 'Bebas Neue', cursive; }
+
+@media (max-width: 1199.98px) {
+  .container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1 fr);
+    grid-template-rows: 20% auto 250px;
+    grid-template-areas: "header header "
+ "aside main"
+ "footer footer"; } }
+
+header {
+  grid-area: header;
+  background-color: #c4ee80;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: wheat; }
+
+main {
+  grid-area: main;
+  background-color: aqua; }
+
+aside {
+  grid-area: aside;
+  background-color: #19ceee; }
+
+footer {
+  grid-area: footer;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: wheat; }
+
+@media screen and (max-widht: 700px) and (min-width: 400px) {
+  .container {
+    text-align: right;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% auto auto 250px;
+    grid-template-areas: "header "
+ "main"
+ "aside"
+ "footer"; } }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; }
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: wheat; }
+
+.iconify {
+  font-size: 50px; }
